@@ -7,18 +7,30 @@
     <meta name="description"
           content="NEON WEATHER - A futuristic weather dashboard displaying live weather, temperature, humidity, and wind speed.">
 
-    <meta name="theme-color" content="#10051f">
+    <meta name="theme-color" content="#071F22">
 
     <title>NEON WEATHER | Futuristic Weather Dashboard</title>
 
+    <!-- Optimized Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
-          rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+        media="print"
+        onload="this.media='all'">
 
+    <noscript>
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap">
+    </noscript>
+
+    <!-- Main stylesheet -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- JavaScript -->
     <script src="script.js" defer></script>
 </head>
 
@@ -154,8 +166,8 @@
                                 <linearGradient id="eiffelGradient"
                                                 x1="0" y1="0"
                                                 x2="1" y2="1">
-                                    <stop offset="0%" stop-color="#ff4da6"/>
-                                    <stop offset="100%" stop-color="#ffb0ef"/>
+                                    <stop offset="0%" stop-color="#40E0D0"/>
+                                    <stop offset="100%" stop-color="#A6FFF0"/>
                                 </linearGradient>
                             </defs>
 
@@ -258,7 +270,7 @@
                              xmlns="http://www.w3.org/2000/svg">
 
                             <g fill="none"
-                               stroke="#7dff6b"
+                               stroke="#FFD58A"
                                stroke-width="2.5"
                                stroke-linejoin="round">
 
@@ -278,7 +290,7 @@
 
                             </g>
 
-                            <g fill="#7dff6b">
+                            <g fill="#FFD58A">
                                 <circle cx="120" cy="20" r="3"/>
                                 <circle cx="48" cy="45" r="2"/>
                                 <circle cx="190" cy="30" r="2"/>
@@ -340,8 +352,8 @@
                                 <linearGradient id="libertyGradient"
                                                 x1="0" y1="0"
                                                 x2="1" y2="1">
-                                    <stop offset="0%" stop-color="#d69bff"/>
-                                    <stop offset="100%" stop-color="#7d6bff"/>
+                                    <stop offset="0%" stop-color="#8CE9C1"/>
+                                    <stop offset="100%" stop-color="#40E0D0"/>
                                 </linearGradient>
                             </defs>
 
@@ -376,7 +388,7 @@
 
                             </g>
 
-                            <g fill="#c8a0ff">
+                            <g fill="#8CE9C1">
                                 <circle cx="90" cy="5" r="3"/>
                                 <circle cx="45" cy="15" r="2"/>
                                 <circle cx="145" cy="27" r="2"/>
@@ -412,6 +424,7 @@
             </p>
 
             <div class="suggested-cities">
+
                 <button type="button" class="city-chip" data-city="Chennai">
                     CHENNAI
                 </button>
@@ -427,6 +440,7 @@
                 <button type="button" class="city-chip" data-city="New York">
                     NEW YORK
                 </button>
+
             </div>
 
         </section>
